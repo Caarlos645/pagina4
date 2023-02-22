@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" type="image/jpg" href="./ImagenesMovil/favicon.png" />
+    <script src="script.js"></script>
+    <script src="./Jquery/jquery-1.6.3.min.js"></script>
+    <script>
+
+        $(function(){
+            $("body").hide().fadeIn(3000);
+        })
+    
+       </script>
+</head>
+
+<body onload="crearFecha()">
+
+    <div class="container">
+        <div class="general">
+            <nav class="nav-main">
+                <img src="./ImagenesMovil/portada.png" alt="Escudo" class="nav-escudo" />
+                <ul class="nav-menu">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="moviles.html">Móviles</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="rss.xml">Rss</a>
+                    </li>
+                </ul>
+                <h1>Tienda de teléfonos</h1>
+            </nav>
+        </div>
+        <hr />
+        <header class="imagenprincipal">
+            <h2>¡¡Móviles Samsung!!</h2>
+            <p>¡¡Los mejores precios aquí!!</p>
+            <a href="Moviles.html" class="leer-mas">Leer más</a>
+        </header>
+        <div>
+            <aside class="ladoderecho">
+                <img src="./ImagenesMovil/iphone-13-256-gb-negro.jpg" alt class="fotoIphone" />
+                <h3>Iphone 13</h3>
+                <p>
+                    <b>
+                        <button onclick="movil()" id="datos">Características del teléfono</button>
+                    </b>
+                </p>
+            </aside>
+            <hr class="separacion" />
+        </div>
+        <h2 class="titulodos">Página Principal de la tienda</h2>
+        <p>
+            <b>
+
+                El teléfono móvil es un dispositivo inalámbrico electrónico que permite tener acceso a la red de
+                telefonía celular o
+                móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales
+                es una célula,
+                si bien existen redes telefónicas móviles satelitales.
+            </b>
+            <hr>
+            <b>Las marcas de teléfonos moviles mas demandadas actualmente son:</b>
+        <ul>
+            <li class="listas">Samsung</li>
+            <li class="listas">Xiaomi</li>
+            <li class="listas">Apple</li>
+            <li class="listas">Huawei</li>
+        </ul>
+        </p>
+        <footer>
+
+            <div class="foter-links">
+                <div class="foter-contenedor">
+                    <ul>
+                        <li class="foter-texto" id="texto">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

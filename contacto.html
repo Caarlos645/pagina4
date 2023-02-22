@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="icon" type="image/jpg" href="./ImagenesMovil/favicon.png" />
+    <script src="script.js"></script>
+    <script src="./Jquery/jquery-1.6.3.min.js"></script>
+    <script>
+
+        $(function(){
+            $("body").hide().fadeIn(3000);
+        })
+    
+       </script>
+</head>
+
+<body onload="crearFecha()">
+
+    <div class="container">
+        <div class="general">
+            <nav class="nav-main">
+                <img src="./ImagenesMovil/portada.png" alt="Escudo" class="nav-escudo" />
+                <ul class="nav-menu">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="moviles.html">Móviles</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="Rss.xml">Rss</a>
+                    </li>
+                </ul>
+                <h1>Tienda de móviles</h1>
+            </nav>
+        </div>
+        <hr />
+        <header>
+            <h2 class="ubicacionh2">Ubicación</h2>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.7656499476584!2d-5.285979884349292!3d37.70170242413271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12db3a038b78bf%3A0xa93aaee71dd58e83!2sAyuntamiento%20de%20Palma%20Del%20R%C3%ADo%20(C%C3%B3rdoba)!5e0!3m2!1ses!2ses!4v1648024911177!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </header>
+        <aside class="formulario">
+
+            <h4>Formulario Registro</h4>
+            <input class="controles" type="texot" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controles" type="texto" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controels" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controles" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+            <input class="botones" type="submit" value="Registrar">
+            <p><a href="#">¿Ya tengo Cuenta?</a></p>
+
+        </aside>
+        <footer>
+
+            <div class="foter-links">
+                <div class="foter-contenedor">
+                    <ul>
+                        <li class="texto" id="texto">
+                            Ayuntamiento de Palma del Río, 14700 (Córdoba)
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>
